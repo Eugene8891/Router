@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin">
+
+    <Button
+        android:id="@+id/bn_wakeup"
+        android:layout_width="500px"
+        android:layout_height="150px"
+        android:layout_marginTop="50px"
+        android:padding="20px"
+        android:textAllCaps="false"
+        android:text="@string/tv_wakeup" />
+
+    <Button
+        android:id="@+id/bn_stop"
+        android:layout_width="500px"
+        android:layout_height="150px"
+        android:layout_below="@id/bn_wakeup"
+        android:layout_marginTop="40px"
+        android:padding="20px"
+        android:textAllCaps="false"
+        android:text="@string/tv_stop_dialog" />
+
+    <TextView
+        android:id="@+id/label_nlg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bn_stop"
+        android:layout_marginTop="50px"
+        android:text="Nlg :"
+        android:textSize="50px"
+        android:padding="20px" />
+
+    <TextView
+        android:id="@+id/tv_nlg"
+        android:layout_width="match_parent"
+        android:layout_height="250px"
+        android:layout_below="@id/label_nlg"
+        android:padding="20px"
+        android:scrollbars="vertical"/>
+
+    <TextView
+        android:id="@+id/label_asr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_nlg"
+        android:layout_marginTop="20px"
+        android:text="Asr :"
+        android:textSize="50px"
+        android:padding="20px" />
+
+    <TextView
+        android:id="@+id/tv_asr"
+        android:layout_width="match_parent"
+        android:layout_height="250px"
+        android:layout_below="@id/label_asr"
+        android:padding="20px"
+        android:scrollbars="vertical"/>
+
+    <TextView
+        android:id="@+id/label_nlp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_asr"
+        android:layout_marginTop="20px"
+        android:text="Nlp :"
+        android:textSize="50px"
+        android:padding="20px" />
+
+    <TextView
+        android:id="@+id/tv_nlp"
+        android:layout_width="match_parent"
+        android:layout_height="500px"
+        android:layout_below="@id/label_nlp"
+        android:padding="20px"
+        android:scrollbars="vertical"/>
+</RelativeLayout>

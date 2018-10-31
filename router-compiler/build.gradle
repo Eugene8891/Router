@@ -1,0 +1,11 @@
+apply plugin: 'java'
+
+dependencies {
+    compile project(':router-annotation')
+    compile 'com.google.guava:guava:23.0-android'
+    compile 'com.google.auto.service:auto-service:1.0-rc4'
+    compile 'com.squareup:javapoet:1.7.0'
+}
+
+sourceCompatibility = "1.7"
+targetCompatibility = "1.7"

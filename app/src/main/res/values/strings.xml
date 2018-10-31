@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">midrivevoice_client</string>
+    <string name="tv_wakeup">Wake up</string>
+    <string name="tv_stop_dialog">Stop dialog</string>
+    <string name="tv_listening">Listening...</string>
+
+</resources>
